@@ -1,0 +1,184 @@
+@font-face {
+    font-family: Mehrbold;
+    src: url('http://fonts.codearena.ir/b/mehrbold/mehrbold.eot');
+    src: url('http://fonts.codearena.ir/b/mehrbold/mehrbold.eot?#iefix') format('embedded-opentype'),
+    url('http://fonts.codearena.ir/b/mehrbold/mehrbold.woff') format('woff'),
+    url('http://fonts.codearena.ir/b/mehrbold/mehrbold.ttf') format('truetype');
+    font-weight: normal;
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html,
+body {
+    font-family: Mehrbold;
+    direction: rtl;
+    overflow-x: hidden;
+}
+body {
+    background-image: url('../img/bg/pizza.jpg');
+    background-size: cover;
+    position: relative;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100vh;
+}
+.body-overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color: rgba(0, 0,0, .35);
+}
+/*header start*/
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1;
+    align-self: flex-start;
+    position: relative;
+    padding: 20px;
+}
+header .mac-donald-logo {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+/*header end*/
+#bill-container,
+.bill-item__info,
+.bill-item__foods {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+#bill-container {
+    width: 80vw;
+    min-width: 300px;
+    background-color: rgba(0, 0,0, .5);
+    z-index: 1;
+    padding: 20px 45px;
+}
+.bill-item {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-flow: row wrap;
+    padding: 20px 0;
+}
+.bill-item:last-child {
+    margin-bottom: 40px;
+}
+ul.bill-item__info {
+    border-radius: 80px;
+    background-color: #000;
+    color: white;
+    font-family: Mehrbold;
+    list-style-type: none;
+    padding: 40px 30px;
+    border: 2px solid #fff;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: flex-start;
+}
+ul.bill-item__info button {
+    margin: 20px auto 0;
+    padding: 5px 30px;
+    font-family: 'Mehrbold';
+    cursor: pointer;
+    border: 0;
+    transition: all .3s linear;
+    font-size: 16px;
+}
+ul.bill-item__info button:hover {
+    background-color: gold;
+
+}
+.bill-item__foods .food-item {
+    display: flex;
+    align-items: center;
+    flex-flow: row-reverse wrap;
+    margin: 4px 0;
+}
+.food-item .food-item-order {
+    font-size: 47px;
+    color: #fff;
+    border-radius: 50%;
+    padding: 0 36px;
+    margin-right: -24px;
+    border: 5px solid #fff;
+    background-color: rgb(218, 2, 2);
+    z-index: 2;
+    position: relative;
+}
+.food-item .food-item-order::after {
+    content: 'ريال';
+    top: 6px;
+    position: absolute;
+    font-size: 15px;
+    left: 13px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.food-item .food-item-images {
+    background-color: rgb(218, 2, 2);
+    height: 82px;
+    padding: 5px 25px;
+    border-radius: 5px;
+}
+.food-item .food-item-images img {
+    width: 100px;
+    height: 95px;
+    margin-top: -25px;
+    object-fit: contain;
+}
+.food-item.two .food-item-images,
+.food-item.two .food-item-order {
+    background-color: rgb(236, 201, 0);
+}
+.food-item.three .food-item-images,
+.food-item.three .food-item-order {
+    background-color: rgb(130, 0, 236);
+}
+
+.bill-controls-container {
+
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+
+.main-container {
+    position: relative;
+    border-radius: 110px;
+    overflow: hidden;
+}
+
+.arrow {
+    cursor: pointer;
+    background-color: rgba(0, 0,0, .5);
+    color: rgba(255,255,255,.45);
+    border: 0;
+    padding: 20px 30px;
+
+    font-size: 23px;
+    position: absolute;
+}
+.arrow:hover {
+    color: rgba(255,255,255,.85);
+}
+.arrow.down {
+    bottom: 0;
+}
+.arrow.up{
+    top: 0;
+}

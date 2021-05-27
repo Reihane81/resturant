@@ -1,92 +1,150 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="css/bill.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script>
-    <link rel="stylesheet" href="https://kit-pro.fontawesome.com/releases/v5.12.1/css/pro.min.css">
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="css/list.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous"/>
     <title>لیست</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.3/tiny-slider.css"/>
 </head>
 <body>
+<header>
+    <img src="img/logo/humbrg.png" alt="hamburger-logo"/>
+    <img src="img/logo/mac-donalds.png" class="mac-donald-logo" alt="mac-donals-logo"/>
+</header>
+    <div class="body-overlay"></div>
+    <div class="main-container">
 
-    <header class="header">
-        <nav class="navbar db-flex-between">
-            <div class="db-flex-between item-holder">
-                <img src="./img/logo/humbrg.png" class="logo" alt="logo"/>
+        <div id="bill-container">
+            <div class="bill-item">
+                <ul class="bill-item__info">
+                    <li>چیز برگر ......... 2</li>
+                    <li>نوشابه کوکاکولا ....3</li>
+                    <li>سیب زمینی سرخ نکرده ....2</li>
+                    <li>چیکن برگر ...... 4</li>
+                    <button>تائید</button>
+                </ul>
+                <div class="bill-item__foods">
+                    <div class="food-item one">
+                        <span class="food-item-order"> 1 </span>
+                        <div class="food-item-images">
+                            <img src="img/product/hamburger.png" alt="hamburger-image" />
+                            <img src="img/product/hamburger.png" alt="hamburger-image" />
+                            <img src="img/product/hamburger.png" alt="hamburger-image" />
+                            <img src="img/product/hamburger.png" alt="hamburger-image" />
+                        </div>
+                    </div>
+                    <div class="food-item two">
+                        <span class="food-item-order"> 2 </span>
+                        <div class="food-item-images">
+                            <img src="img/product/hamburger.png" alt="hamburger-image" />
+                            <img src="img/product/hamburger.png" alt="hamburger-image" />
+                            <img src="img/product/hamburger.png" alt="hamburger-image" />
+                            <img src="img/product/hamburger.png" alt="hamburger-image" />
+                        </div>
+                    </div>
+                    <div class="food-item three">
+                        <span class="food-item-order"> 3 </span>
+                        <div class="food-item-images">
+                            <img src="img/product/hamburger.png" alt="hamburger-image" />
+                            <img src="img/product/hamburger.png" alt="hamburger-image" />
+                            <img src="img/product/hamburger.png" alt="hamburger-image" />
+                            <img src="img/product/hamburger.png" alt="hamburger-image" />
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="info-user">
-                <img class="logo-m user-img" src="img/icon/user.png" alt=""/>
+            <div class="bill-item">
+                <ul class="bill-item__info">
+                    <li>چیز برگر ......... 2</li>
+                    <li>نوشابه کوکاکولا ....3</li>
+                    <li>سیب زمینی سرخ نکرده ....2</li>
+                    <li>چیکن برگر ...... 4</li>
+                    <button>تائید</button>
+                </ul>
+                <div class="bill-item__foods">
+                    <div class="food-item one">
+                        <span class="food-item-order"> 1 </span>
+                        <div class="food-item-images">
+                            <img src="img/product/hamburger.png" alt="hamburger-image" />
+                            <img src="img/product/hamburger.png" alt="hamburger-image" />
+                            <img src="img/product/hamburger.png" alt="hamburger-image" />
+                            <img src="img/product/hamburger.png" alt="hamburger-image" />
+                        </div>
+                    </div>
+                    <div class="food-item two">
+                        <span class="food-item-order"> 2 </span>
+                        <div class="food-item-images">
+                            <img src="img/product/hamburger.png" alt="hamburger-image" />
+                            <img src="img/product/hamburger.png" alt="hamburger-image" />
+                            <img src="img/product/hamburger.png" alt="hamburger-image" />
+                            <img src="img/product/hamburger.png" alt="hamburger-image" />
+                        </div>
+                    </div>
+                    <div class="food-item three">
+                        <span class="food-item-order"> 3 </span>
+                        <div class="food-item-images">
+                            <img src="img/product/hamburger.png" alt="hamburger-image" />
+                            <img src="img/product/hamburger.png" alt="hamburger-image" />
+                            <img src="img/product/hamburger.png" alt="hamburger-image" />
+                            <img src="img/product/hamburger.png" alt="hamburger-image" />
+                        </div>
+                    </div>
+                </div>
             </div>
-        </nav>
-    </header>
-
-    <div class="container">
-        <div class="bg-img">
-            <div class="bill style">
-                <div class="arrow-up" id="button"></div>
-                <img src="img/logo/mac-donalds.png" class="logo-m donald">
-                <div class="list-bill hambrg" style="display: inline-block">
-                    <h2 class="text-bill"> صورتحساب </h2>
-                    <ul class="list-food text">
-                        <li class="food"> چیزبرگر _____________ 2 </li>
-                        <li class="food"> نوشابه کوکاکولا ________ 3 </li>
-                        <li class="food"> سیب زمینی سرخ شده _____  1 </li>
-                        <li class="food"> چیکن استریپس ________ 1 </li>
-                        <li class="food total toman"> جمع کل = 100 هزار تومان </li>
-                    </ul>
-
-                    <div class="btn-confirm">
-                        <button type="button"> تایید </button>
+            <div class="bill-item">
+                <ul class="bill-item__info">
+                    <li>چیز برگر ......... 2</li>
+                    <li>نوشابه کوکاکولا ....3</li>
+                    <li>سیب زمینی سرخ نکرده ....2</li>
+                    <li>چیکن برگر ...... 4</li>
+                    <button>تائید</button>
+                </ul>
+                <div class="bill-item__foods">
+                    <div class="food-item one">
+                        <span class="food-item-order"> 1 </span>
+                        <div class="food-item-images">
+                            <img src="img/product/hamburger.png" alt="hamburger-image" />
+                            <img src="img/product/hamburger.png" alt="hamburger-image" />
+                            <img src="img/product/hamburger.png" alt="hamburger-image" />
+                            <img src="img/product/hamburger.png" alt="hamburger-image" />
+                        </div>
+                    </div>
+                    <div class="food-item two">
+                        <span class="food-item-order"> 2 </span>
+                        <div class="food-item-images">
+                            <img src="img/product/hamburger.png" alt="hamburger-image" />
+                            <img src="img/product/hamburger.png" alt="hamburger-image" />
+                            <img src="img/product/hamburger.png" alt="hamburger-image" />
+                            <img src="img/product/hamburger.png" alt="hamburger-image" />
+                        </div>
+                    </div>
+                    <div class="food-item three">
+                        <span class="food-item-order"> 3 </span>
+                        <div class="food-item-images">
+                            <img src="img/product/hamburger.png" alt="hamburger-image" />
+                            <img src="img/product/hamburger.png" alt="hamburger-image" />
+                            <img src="img/product/hamburger.png" alt="hamburger-image" />
+                            <img src="img/product/hamburger.png" alt="hamburger-image" />
+                        </div>
                     </div>
                 </div>
-                <div class="ds-bl" style="display: inline-block;">
-                <div class="list-food-humbrg">
-                    <img src="img/product/one-dollar.png" class="price-img logo-m" alt="">
-                    <div class="food-style">
-                        <ul class="list-food-style">
-                            <li><img src="img/product/hamburger.png" class="hamburg-img" alt=""></li>
-                            <li><img src="img/product/hamburger.png" class="hamburg-img" alt=""></li>
-                            <li><img src="img/product/hamburger.png" class="hamburg-img" alt=""></li>
-                            <li><img src="img/product/hamburger.png" class="hamburg-img" alt=""></li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="list-food-humbrg">
-                    <img src="img/product/one-dollar.png" class="price-img logo-m" alt="">
-                    <div class="food-style">
-                        <ul class="list-food-style">
-                            <li><img src="img/product/hamburger.png" class="hamburg-img" alt=""></li>
-                            <li><img src="img/product/hamburger.png" class="hamburg-img" alt=""></li>
-                            <li><img src="img/product/hamburger.png" class="hamburg-img" alt=""></li>
-                            <li><img src="img/product/hamburger.png" class="hamburg-img" alt=""></li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="list-food-humbrg">
-                    <img src="img/product/one-dollar.png" class="price-img logo-m" alt="">
-                    <div class="food-style">
-                        <ul class="list-food-style">
-                            <li><img src="img/product/hamburger.png" class="hamburg-img" alt=""></li>
-                            <li><img src="img/product/hamburger.png" class="hamburg-img" alt=""></li>
-                            <li><img src="img/product/hamburger.png" class="hamburg-img" alt=""></li>
-                            <li><img src="img/product/hamburger.png" class="hamburg-img" alt=""></li>
-                        </ul>
-                    </div>
-                </div>
-                </div>
-                <div class="arrow-down" id="button"></div>
-            </div>
-
-            <div class="contact-us">
-                <a href="#"><img src="img/icon/contactus.png" class="us-img" alt=""></a>
-                <span> تماس با ما </span>
             </div>
 
         </div>
+
+        <div class="bill-controls-container">
+            <button class="arrow up">
+                <i class="fa fa-angle-up" aria-hidden="true"></i>
+            </button>
+            <button class="arrow down">
+                <i class="fa fa-angle-down" aria-hidden="true"></i>
+            </button>
+        </div>
+    </div>
     </div>
 
-
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script>
+<script src="js/slider.js"></script>
 </body>
 </html>

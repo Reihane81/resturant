@@ -8,5 +8,10 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+<<<<<<< HEAD
+=======
+    <orderEntry type="library" name="font-awesome" level="application" />
+    <orderEntry type="library" name="tiny-slider" level="application" />
+>>>>>>> 70cf5c6 (slider)
   </component>
 </module>
