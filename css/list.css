@@ -36,20 +36,47 @@ body {
     background-color: rgba(0, 0,0, .35);
 }
 /*header start*/
-header {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    z-index: 1;
-    align-self: flex-start;
-    position: relative;
-    padding: 20px;
+.header {
+    width: 99.8%;
+    margin-top: 0;
+    top: 0;
+    position: fixed;
+    overflow: hidden;
+    height: 7rem;
+    z-index: 999;
 }
-header .mac-donald-logo {
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
+
+.item-holder {
+    color: #ffffff;
+    width: 16rem;
+    padding: 2.2rem;
+}
+
+.logo {
+    width: 4rem;
+    height: 4rem;
+    margin: -1rem 3rem 0 4rem;
+}
+
+.info-user {
+    position: absolute;
+    font-family: Mehrbold;
+    width: auto;
+    height: 5rem;
+    display: flex;
+    left: 10%;
+    padding: 0 1rem;
+    top: 1rem;
+    border: none;
+    float: left;
+    color: #ffffff;
+    outline: none;
+    cursor: pointer;
+}
+
+.user {
+    width: 5rem;
+    height: 5rem;
 }
 /*header end*/
 #bill-container,
@@ -60,11 +87,11 @@ header .mac-donald-logo {
     align-items: center;
 }
 #bill-container {
-    width: 80vw;
+    width: 73vw;
     min-width: 300px;
     background-color: rgba(0, 0,0, .5);
     z-index: 1;
-    padding: 20px 45px;
+    padding: 20px 0;
 }
 .bill-item {
     width: 100%;
@@ -77,29 +104,60 @@ header .mac-donald-logo {
 .bill-item:last-child {
     margin-bottom: 40px;
 }
-ul.bill-item__info {
+.bill-item__info {
     border-radius: 80px;
     background-color: #000;
     color: white;
     font-family: Mehrbold;
     list-style-type: none;
-    padding: 40px 30px;
-    border: 2px solid #fff;
+    padding: 30px;
+    border: 1px solid #fff;
     display: flex;
     flex-flow: column nowrap;
-    align-items: flex-start;
+    align-items: center;
 }
-ul.bill-item__info button {
+
+.input-text {
+    padding: 37px;
+}
+
+.bill-item__info li {
+    font-size: 18px;
+}
+
+.bill-item__info .input{
+    position: relative;
+    font-family: 'Mehrbold';
+    width: 8.5rem;
+    height: 2.5rem;
+    padding-right: 1em;
+    font-size: 17px;
+    margin-top: 1rem;
+    left: .5rem;
+    border: none;
+    border-radius: 25px;
+    outline: none;
+}
+
+.bill-item__info span {
+    position: relative;
+    font-size: 17px;
+    right: .5rem;
+}
+
+.bill-item__info button {
     margin: 20px auto 0;
     padding: 5px 30px;
     font-family: 'Mehrbold';
     cursor: pointer;
     border: 0;
+    border-radius: 25px;
+    background-color: gold;
     transition: all .3s linear;
     font-size: 16px;
 }
-ul.bill-item__info button:hover {
-    background-color: gold;
+.bill-item__info button:hover {
+    background-color: goldenrod;
 
 }
 .bill-item__foods .food-item {
@@ -119,6 +177,15 @@ ul.bill-item__info button:hover {
     z-index: 2;
     position: relative;
 }
+
+.food-item .number-one {
+    padding: 0 39px;
+}
+
+.food-item .number-three {
+    padding: 0 31px;
+}
+
 .food-item .food-item-order::after {
     content: 'ريال';
     top: 6px;
@@ -131,15 +198,16 @@ ul.bill-item__info button:hover {
 
 .food-item .food-item-images {
     background-color: rgb(218, 2, 2);
-    height: 82px;
-    padding: 5px 25px;
+    height: 43px;
     border-radius: 5px;
 }
 .food-item .food-item-images img {
-    width: 100px;
+    position: relative;
+    top: -4rem;
+    width: 107px;
     height: 95px;
-    margin-top: -25px;
     object-fit: contain;
+    z-index: 99;
 }
 .food-item.two .food-item-images,
 .food-item.two .food-item-order {
@@ -151,7 +219,6 @@ ul.bill-item__info button:hover {
 }
 
 .bill-controls-container {
-
     display: flex;
     flex-flow: column nowrap;
     align-items: center;
@@ -161,16 +228,16 @@ ul.bill-item__info button:hover {
     position: relative;
     border-radius: 110px;
     overflow: hidden;
+    margin-top: 11rem;
 }
 
 .arrow {
     cursor: pointer;
-    background-color: rgba(0, 0,0, .5);
-    color: rgba(255,255,255,.45);
+    background-color: rgba(0, 0,0, 0);
+    color: rgba(255,255,255,0.45);
     border: 0;
-    padding: 20px 30px;
-
-    font-size: 23px;
+    padding: 0px 30px;
+    font-size: 50px;
     position: absolute;
 }
 .arrow:hover {
@@ -181,4 +248,8 @@ ul.bill-item__info button:hover {
 }
 .arrow.up{
     top: 0;
+}
+
+.hambrg {
+    transition: all ease .3s;
 }

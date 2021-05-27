@@ -529,6 +529,32 @@ body {
     flex-wrap: wrap;
 }
 
+.main-container {
+    position: relative;
+    border-radius: 110px;
+    overflow: hidden;
+}
+
+.arrow {
+    cursor: pointer;
+    background-color: rgba(0, 0,0, .5);
+    color: rgba(255,255,255,.45);
+    border: 0;
+    padding: 20px 30px;
+
+    font-size: 23px;
+    position: absolute;
+}
+.arrow:hover {
+    color: rgba(255,255,255,.85);
+}
+.arrow.down {
+    bottom: 0;
+}
+.arrow.up{
+    top: 0;
+}
+
 
 /* receipt-bill */
 
@@ -547,4 +573,8 @@ body {
 .time {
     right: 0;
     justify-content: center;
+}
+
+.bill-slider {
+    margin-top: 10rem;
 }

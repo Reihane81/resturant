@@ -14,6 +14,14 @@ const slider = tns({
     "center": true
 });
 
+const img = document.querySelectorAll(".hambrg");
+
+img.forEach((i) => {
+    i.addEventListener("click", (e) => {
+        e.target.style.transform = "scale(2,3)";
+    });
+});
+
 //   const slider = tns({
 //     container: "#artist-item-container",
 //     items: 1,
