@@ -22,6 +22,20 @@ img.forEach((i) => {
     });
 });
 
+
+img.forEach((i) => {
+    i.addEventListener("click", (e) => {
+        const isScaled = e.target.getAttribute("scaled");
+        !isScaled || isScaled == "false"
+            ? (e.target.style.transform = "scale(1.5,2)")
+            : (e.target.style.transform = "scale(1,1)");
+        e.target.setAttribute(
+            "scaled",
+            !isScaled || isScaled == "false" ? true : false
+        );
+    });
+});
+
 //   const slider = tns({
 //     container: "#artist-item-container",
 //     items: 1,
