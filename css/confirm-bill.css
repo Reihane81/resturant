@@ -282,7 +282,7 @@ a {
 
 .reply-input {
     width: 8rem;
-    height: 0rem;
+    height: 0;
     margin: 0.7rem 1rem 0rem auto;
     padding: 1rem;
 }
@@ -577,4 +577,22 @@ body {
 
 .bill-slider {
     margin-top: 10rem;
+}
+
+
+/* splide */
+
+.splide__arrow--prev {
+    top: -34% !important;
+}
+
+.splide__arrow--next {
+    bottom: -7% !important;
+    right: 46% !important;
+}
+
+@media (max-width: 1200px) {
+    .splide__arrow--prev {
+        top: -21% !important;
+    }
 }

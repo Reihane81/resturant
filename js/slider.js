@@ -1,4 +1,6 @@
 
+/* slider */
+
 const controls_container = document.querySelector('.bill-controls-container');
 
 const slider = tns({
@@ -11,8 +13,16 @@ const slider = tns({
     "controlsContainer": controls_container,
     "speed": 400,
     "gutter":40,
-    "center": true
+    "center": true,
 });
+
+/* slider */
+
+
+
+
+
+/* zoom */
 
 const img = document.querySelectorAll(".hambrg");
 

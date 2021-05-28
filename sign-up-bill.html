@@ -1,76 +1,153 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/login.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/css/splide.min.css"
+    />
+    <link rel="stylesheet" href="css/login.css" />
     <title>تایید لیست</title>
-</head>
+  </head>
 
-<body>
-
-<div class="container">
-    <div class="bg-img">
+  <body>
+    <div class="container">
+      <div class="bg-img">
         <div class="form-login signing">
-            <form class="form" id="form">
-                <div class="db-flex">
-                    <div class="input-text">
-                        <label>
-                            <input type="text" class="input text-info username" id="username" placeholder="نام">
-                        </label>
-                        <label>
-                            <input type="text" class="input text-info email" id="password" placeholder="ایمیل">
-                        </label>
-                        <label>
-                            <input type="email" class="input text-info email" id="email" placeholder="شماره تماس">
-                        </label>
-                        <label>
-                            <input type="text" class="input text-info password" id="password-1" placeholder="پسورد">
-                        </label>
-                    </div>
-                    <div class="input-text">
-                        <label class="label-style">
-                            <span class="btn-style">آدرس :</span>
-                            <textarea name="address" class="input text-info" id="address" rows="5" placeholder="آدرس خود را وارد کنید"></textarea>
-                        </label>
-                    </div>
-
-                </div>
-
-                <button type="submit" id="submit" class="btn-login"> پاک کردن </button>
-                <button type="submit" id="submit" class="btn-login"> ثبت نام </button>
-            </form>
-
-            <div class="slider-bill">
-                <div class="arrow-up" id="button"></div>
-                <div class="bill style">
-                    <img src="img/logo/mac-donalds.png" class="logo-m donald">
-                    <div class="list-bill hambrg" style="display: inline-block">
-                        <ul class="list-food text">
-                            <li class="food"> چیزبرگر _____________ 2 </li>
-                            <li class="food"> نوشابه کوکاکولا ________ 3 </li>
-                            <li class="food"> سیب زمینی سرخ شده ___  1 </li>
-                            <li class="food"> چیکن استریپس ________ 1 </li>
-                            <li class="food total toman"> جمع کل = 100 هزار تومان </li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="arrow-down" id="button"></div>
+          <form class="form" id="form">
+            <div class="db-flex">
+              <div class="input-text">
+                <label>
+                  <input
+                    type="text"
+                    class="input text-info username"
+                    id="username"
+                    placeholder="نام"
+                  />
+                </label>
+                <label>
+                  <input
+                    type="text"
+                    class="input text-info email"
+                    id="password"
+                    placeholder="ایمیل"
+                  />
+                </label>
+                <label>
+                  <input
+                    type="email"
+                    class="input text-info email"
+                    id="email"
+                    placeholder="شماره تماس"
+                  />
+                </label>
+                <label>
+                  <input
+                    type="text"
+                    class="input text-info password"
+                    id="password-1"
+                    placeholder="پسورد"
+                  />
+                </label>
+              </div>
+              <div class="input-text">
+                <label class="label-style">
+                  <span class="btn-style">آدرس :</span>
+                  <textarea
+                    name="address"
+                    class="input text-info"
+                    id="address"
+                    rows="5"
+                    placeholder="آدرس خود را وارد کنید"
+                  ></textarea>
+                </label>
+              </div>
             </div>
 
+            <button type="submit" class="btn-login">پاک کردن</button>
+            <button type="submit" class="btn-login">ثبت نام</button>
+          </form>
+
+          <div class="main-container">
+            <div class="slider-bill" id="bill-container">
+              <div class="splide">
+                <div class="splide__track">
+                  <ul class="splide__list">
+                    <li class="splide__slide slide">
+                      <div class="bill style bill-item">
+                        <img
+                          src="img/logo/mac-donalds.png"
+                          class="logo-m donald"
+                        />
+                        <div
+                          class="list-bill hambrg"
+                          style="display: inline-block"
+                        >
+                          <ul class="list-food text">
+                            <li class="food">چیزبرگر _____________ 2</li>
+                            <li class="food">نوشابه کوکاکولا ________ 3</li>
+                            <li class="food">سیب زمینی سرخ شده ___ 1</li>
+                            <li class="food">چیکن استریپس ________ 1</li>
+                            <li class="food total toman">
+                              جمع کل = 100 هزار تومان
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </li>
+                    <li class="splide__slide slide">
+                      <div class="bill style bill-item">
+                        <img
+                          src="img/logo/mac-donalds.png"
+                          class="logo-m donald"
+                        />
+                        <div
+                          class="list-bill hambrg"
+                          style="display: inline-block"
+                        >
+                          <ul class="list-food text">
+                            <li class="food">چیزبرگر _____________ 2</li>
+                            <li class="food">نوشابه کوکاکولا ________ 3</li>
+                            <li class="food">سیب زمینی سرخ شده ___ 1</li>
+                            <li class="food">چیکن استریپس ________ 1</li>
+                            <li class="food total toman">
+                              جمع کل = 100 هزار تومان
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
 
         <div class="contact-us">
-            <a href="#"><img src="img/icon/contactus.png" class="us-img" alt=""></a>
-            <span> تماس با ما </span>
+          <a href="#"
+            ><img src="img/icon/contactus.png" class="us-img" alt=""
+          /></a>
+          <span> تماس با ما </span>
         </div>
+      </div>
     </div>
-</div>
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/js/splide.min.js"></script>
 
+    <script src="js/slider.js"></script>
+    <script>
+      new Splide(".splide", {
+        type: "loop",
 
-<script src="js/login.js"></script>
-</body>
-
+        direction: "ttb",
+        height: "500px",
+        pagination: false,
+        classes: {
+          next: "splide__arrow--next nextBtn",
+        },
+      }).mount();
+    </script>
+  </body>
 </html>
