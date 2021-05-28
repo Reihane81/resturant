@@ -596,3 +596,18 @@ body {
         top: -21% !important;
     }
 }
+
+/* score */
+
+.score-container {
+    margin-top: 7rem;
+}
+
+.splide__arrow--prev {
+    top: -4% !important;
+}
+
+.score-splide-next {
+    bottom: -9% !important;
+    right: 43% !important;
+}

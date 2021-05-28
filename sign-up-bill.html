@@ -4,10 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/css/splide.min.css"
-    />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/css/splide.min.css"/>
     <link rel="stylesheet" href="css/login.css" />
     <title>تایید لیست</title>
   </head>
@@ -15,53 +12,27 @@
   <body>
     <div class="container">
       <div class="bg-img">
-        <div class="form-login signing">
-          <form class="form" id="form">
+        <div class="form-login signing padd-left">
+          <form class="form sign-form" id="form">
             <div class="db-flex">
               <div class="input-text">
                 <label>
-                  <input
-                    type="text"
-                    class="input text-info username"
-                    id="username"
-                    placeholder="نام"
-                  />
+                  <input type="text" class="input text-info username" id="username" placeholder="نام"/>
                 </label>
                 <label>
-                  <input
-                    type="text"
-                    class="input text-info email"
-                    id="password"
-                    placeholder="ایمیل"
-                  />
+                  <input type="text" class="input text-info email" id="password" placeholder="ایمیل"/>
                 </label>
                 <label>
-                  <input
-                    type="email"
-                    class="input text-info email"
-                    id="email"
-                    placeholder="شماره تماس"
-                  />
+                  <input type="email" class="input text-info email" id="email" placeholder="شماره تماس"/>
                 </label>
                 <label>
-                  <input
-                    type="text"
-                    class="input text-info password"
-                    id="password-1"
-                    placeholder="پسورد"
-                  />
+                  <input type="text" class="input text-info password" id="password-1" placeholder="پسورد"/>
                 </label>
               </div>
               <div class="input-text">
                 <label class="label-style">
                   <span class="btn-style">آدرس :</span>
-                  <textarea
-                    name="address"
-                    class="input text-info"
-                    id="address"
-                    rows="5"
-                    placeholder="آدرس خود را وارد کنید"
-                  ></textarea>
+                  <textarea name="address" class="input text-info" id="address" rows="5" placeholder="آدرس خود را وارد کنید"></textarea>
                 </label>
               </div>
             </div>
@@ -77,14 +48,8 @@
                   <ul class="splide__list">
                     <li class="splide__slide slide">
                       <div class="bill style bill-item">
-                        <img
-                          src="img/logo/mac-donalds.png"
-                          class="logo-m donald"
-                        />
-                        <div
-                          class="list-bill hambrg"
-                          style="display: inline-block"
-                        >
+                        <img src="img/logo/mac-donalds.png" class="logo-m donald"/>
+                        <div class="list-bill hambrg" style="display: inline-block">
                           <ul class="list-food text">
                             <li class="food">چیزبرگر _____________ 2</li>
                             <li class="food">نوشابه کوکاکولا ________ 3</li>
@@ -99,14 +64,8 @@
                     </li>
                     <li class="splide__slide slide">
                       <div class="bill style bill-item">
-                        <img
-                          src="img/logo/mac-donalds.png"
-                          class="logo-m donald"
-                        />
-                        <div
-                          class="list-bill hambrg"
-                          style="display: inline-block"
-                        >
+                        <img src="img/logo/mac-donalds.png" class="logo-m donald"/>
+                        <div class="list-bill hambrg" style="display: inline-block">
                           <ul class="list-food text">
                             <li class="food">چیزبرگر _____________ 2</li>
                             <li class="food">نوشابه کوکاکولا ________ 3</li>
@@ -127,27 +86,13 @@
         </div>
 
         <div class="contact-us">
-          <a href="#"
-            ><img src="img/icon/contactus.png" class="us-img" alt=""
-          /></a>
+          <a href="#"><img src="img/icon/contactus.png" class="us-img" alt=""/></a>
           <span> تماس با ما </span>
         </div>
       </div>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/js/splide.min.js"></script>
 
-    <script src="js/slider.js"></script>
-    <script>
-      new Splide(".splide", {
-        type: "loop",
-
-        direction: "ttb",
-        height: "500px",
-        pagination: false,
-        classes: {
-          next: "splide__arrow--next nextBtn",
-        },
-      }).mount();
-    </script>
+    <script src="js/splide-sign-up-bill.js"></script>
   </body>
 </html>

@@ -210,7 +210,7 @@ a {
   width: auto;
   height: auto;
   padding: 0 2rem;
-  border-radius: 60px;
+  border-radius: 20px !important;
   display: flex;
   flex-wrap: wrap;
   left: -3rem;
@@ -352,4 +352,14 @@ a {
 }
 .arrow.up {
   top: 0;
+}
+
+/* sign-up-bill */
+
+.padd-left {
+  padding-left: 3rem !important;
+}
+
+.sign-form {
+  margin-left: 3rem !important;
 }
