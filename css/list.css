@@ -50,7 +50,7 @@ body {
     height: 10rem;
     z-index: 999;
 }
-<<<<<<< HEAD
+
 /*header start*/
 .header {
     width: 99.8%;
@@ -61,8 +61,7 @@ body {
     height: 7rem;
     z-index: 999;
 }
-=======
->>>>>>> 6a4d67f (end slider two page)
+
 
 .item-holder {
     color: #ffffff;
@@ -84,11 +83,8 @@ body {
     display: flex;
     left: 10%;
     padding: 0 1rem;
-<<<<<<< HEAD
     top: 1rem;
-=======
     margin: -1.5rem 0;
->>>>>>> 6a4d67f (end slider two page)
     border: none;
     float: left;
     color: #ffffff;
@@ -127,11 +123,8 @@ body {
     min-width: 300px;
     background-color: rgba(14, 15, 20, 0.9);
     z-index: 1;
-<<<<<<< HEAD
-    padding: 20px 0;
-=======
     padding: 25px 16px;
->>>>>>> 6a4d67f (end slider two page)
+
 }
 .bill-item {
     width: 100%;
@@ -150,16 +143,11 @@ body {
     color: white;
     font-family: Mehrbold;
     list-style-type: none;
-<<<<<<< HEAD
-    padding: 30px;
-=======
     padding: 30px 25px;
->>>>>>> 6a4d67f (end slider two page)
     border: 1px solid #fff;
     display: flex;
     flex-flow: column nowrap;
     align-items: center;
-<<<<<<< HEAD
 }
 
 .input-text {
@@ -169,6 +157,20 @@ body {
 .bill-item__info li {
     font-size: 18px;
 }
+
+.bill-item__info .div-text {
+    position: relative;
+    width: 13rem;
+    border-bottom: 1px dashed white;
+    margin-top: 1rem;
+}
+
+.div-text .number-text{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
 
 .bill-item__info .input{
     position: relative;
@@ -192,7 +194,6 @@ body {
 
 .bill-item__info button {
     margin: 20px auto 0;
-=======
     text-align: justify;
     font-size: 18px;
 }
@@ -229,29 +230,19 @@ body {
 .bill-item__info button {
     position: relative;
     margin: 12px auto 0;
->>>>>>> 6a4d67f (end slider two page)
     padding: 5px 30px;
     top: 1rem;
     font-family: 'Mehrbold';
     cursor: pointer;
     border: 0;
-<<<<<<< HEAD
     border-radius: 25px;
     background-color: gold;
-=======
-    background-color: #ffcc00;
->>>>>>> 6a4d67f (end slider two page)
     transition: all .3s linear;
     font-size: 19px;
     border-radius: 25px;
 }
 .bill-item__info button:hover {
-<<<<<<< HEAD
     background-color: goldenrod;
-=======
-    background-color: #fdd85d;
->>>>>>> 6a4d67f (end slider two page)
-
 }
 .bill-item__foods .food-item {
     display: flex;
@@ -271,21 +262,20 @@ body {
     position: relative;
 }
 
-<<<<<<< HEAD
 .food-item .number-one {
     padding: 0 39px;
 }
 
 .food-item .number-three {
     padding: 0 31px;
-=======
+}
+
 .number-one {
     padding: 0 38px !important;
 }
 
 .number-three {
     padding: 0 32px !important;
->>>>>>> 6a4d67f (end slider two page)
 }
 
 .food-item .food-item-order::after {
@@ -300,7 +290,6 @@ body {
 
 .food-item .food-item-images {
     background-color: rgb(218, 2, 2);
-<<<<<<< HEAD
     height: 43px;
     border-radius: 5px;
 }
@@ -308,7 +297,6 @@ body {
     position: relative;
     top: -4rem;
     width: 107px;
-=======
     height: 36px;
     border-radius: 2px;
 }
@@ -317,7 +305,6 @@ body {
     bottom: 4rem;
     left: -.2rem;
     width: 110px;
->>>>>>> 6a4d67f (end slider two page)
     height: 95px;
     object-fit: contain;
     z-index: 99;
@@ -341,27 +328,18 @@ body {
     position: relative;
     border-radius: 110px;
     overflow: hidden;
-<<<<<<< HEAD
     margin-top: 11rem;
-=======
     margin-top: 10rem;
->>>>>>> 6a4d67f (end slider two page)
 }
 
 .arrow {
     cursor: pointer;
-<<<<<<< HEAD
     background-color: rgba(0, 0,0, 0);
-    color: rgba(255,255,255,0.45);
-    border: 0;
-    padding: 0px 30px;
-    font-size: 50px;
-=======
+    padding: 0 30px;
     color: rgba(255,255,255,.45);
     border: 0;
     background-color: rgba(14, 15, 20, 0);
     font-size: 55px;
->>>>>>> 6a4d67f (end slider two page)
     position: absolute;
 }
 

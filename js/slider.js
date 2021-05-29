@@ -16,11 +16,6 @@ const slider = tns({
     "center": true,
 });
 
-/* slider */
-
-
-
-
 
 /* zoom */
 
@@ -45,6 +40,12 @@ img.forEach((i) => {
         );
     });
 });
+
+window.onclick = function(event) {
+    if (event.target == img) {
+        modal.style.marginTop = "scale(1,1)";
+    }
+}
 
 //   const slider = tns({
 //     container: "#artist-item-container",

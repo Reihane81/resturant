@@ -611,3 +611,9 @@ body {
     bottom: -9% !important;
     right: 43% !important;
 }
+
+/* timer */
+
+.time {
+    font-size: 25px;
+}
