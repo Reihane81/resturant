@@ -147,6 +147,11 @@ h2 {
     padding-top: 2.5rem;
 }
 
+.text-h2 {
+    padding-top: 1.3rem;
+    padding-right: 0;
+}
+
 .list-bill {
     position: relative;
     margin-bottom: 1.5rem;
@@ -157,9 +162,31 @@ h2 {
     padding-top: 1rem;
 }
 
+.padd-left {
+    margin-left: 3rem;
+}
+
+.div-text {
+    position: relative;
+    width: 13rem;
+    border-bottom: 1px dashed white;
+    margin-top: 1.5rem;
+    font-size: 18px;
+    display: flex;
+}
+
+.text-food {
+    margin-bottom: .5rem;
+}
+
+.div-text .number-text{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
 .food {
     display: block;
-    padding: 1rem .5rem .5rem 3rem;
     font-size: 22px;
 }
 

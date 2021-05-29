@@ -162,34 +162,13 @@ body {
     position: relative;
     width: 13rem;
     border-bottom: 1px dashed white;
-    margin-top: 1rem;
+    margin-top: .5rem;
 }
 
 .div-text .number-text{
     position: absolute;
     left: 0;
     top: 0;
-}
-
-
-.bill-item__info .input{
-    position: relative;
-    font-family: 'Mehrbold';
-    width: 8.5rem;
-    height: 2.5rem;
-    padding-right: 1em;
-    font-size: 17px;
-    margin-top: 1rem;
-    left: .5rem;
-    border: none;
-    border-radius: 25px;
-    outline: none;
-}
-
-.bill-item__info span {
-    position: relative;
-    font-size: 17px;
-    right: .5rem;
 }
 
 .bill-item__info button {
@@ -211,7 +190,7 @@ body {
 .bill-item__info label .input {
     position: relative;
     width: 8rem;
-    height: 2rem;
+    height: 2.5rem;
     font-family: Mehrbold;
     padding-right: 1rem;
     margin-top: 1rem;
