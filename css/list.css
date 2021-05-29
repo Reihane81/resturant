@@ -158,6 +158,10 @@ body {
     font-size: 18px;
 }
 
+.bill-item__info .text-food {
+    margin-bottom: -.2rem;
+}
+
 .bill-item__info .div-text {
     position: relative;
     width: 13rem;

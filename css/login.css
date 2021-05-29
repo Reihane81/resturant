@@ -204,6 +204,7 @@ a {
   display: flex;
   padding-left: 6rem;
   border-radius: 61px;
+  z-index: 9;
 }
 
 .slider-bill {
@@ -362,4 +363,21 @@ a {
 
 .sign-form {
   margin-left: 3rem !important;
+}
+
+.div-text {
+  position: relative;
+  width: 10rem;
+  border-bottom: 1px dashed white;
+  margin-top: 1.5rem;
+}
+
+.div-text .number-text{
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.sign-up-bill {
+  padding: 1rem 3rem 1.5rem 0rem;
 }

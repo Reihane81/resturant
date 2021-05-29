@@ -137,13 +137,17 @@ body {
     color: white;
 }
 
+.receipt-list {
+    padding: 2rem 2.4rem 3.5rem 2.5rem;
+}
+
 .logo-m {
     position: absolute;
     width: 6rem;
     height: 6rem;
     border-radius: 50%;
     left: 0;
-    margin: -1rem -1.3rem;
+    margin: -1.8rem -1.3rem;
 }
 
 h2 {
@@ -559,7 +563,7 @@ body {
 /* receipt-bill */
 
 .button-1 {
-    width: 40%;
+    width: 50%;
 }
 
 .button-2 {
@@ -616,4 +620,33 @@ body {
 
 .time {
     font-size: 25px;
+}
+
+/* confirm-bill */
+
+.list-food .div-text {
+    position: relative;
+    width: 13rem;
+    border-bottom: 1px dashed white;
+    margin-top: 1.5rem;
+    font-size: 20px;
+}
+
+.div-text .number-text{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.text-food {
+    margin-bottom: .3rem;
+}
+
+.text-h2 {
+    padding-top: 1.3rem;
+    padding-right: 0;
+}
+
+.confirm-list {
+    padding: 2rem;
 }
