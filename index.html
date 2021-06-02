@@ -23,8 +23,21 @@
         <div class="bg-img">
             <h1> رزرو رستوران </h1><br>
             <div class="link-btn">
-                <button type="button" class="btn city"><a href="#"> شهر </a></button><br>
-                <button type="button" class="btn restaurant"><a href="#"> رستوران </a></button><br>
+                <div class="select-city">
+                    <select name="city" id="city">
+                            <option value="city">شهر</option>
+                            <option value="volvo">تهران</option>
+                            <option value="saab">کرج</option>
+                            <option value="saab">اصفهان</option>
+                            <option value="saab">شیراز</option>
+                    </select>
+                </div>
+                <div class="search-box">
+                    <form onsubmit="event.preventDefault();" role="search">
+                        <label for="search">رستوران</label>
+                        <input id="search" type="search" placeholder="رستوران" autofocus required />   
+                    </form>
+                </div>
             </div>
 
             <div class="item">
@@ -37,6 +50,7 @@
             </div>
         </div>
     </div>
+
 
 </body>
 </html>

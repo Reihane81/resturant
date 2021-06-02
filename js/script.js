@@ -1,4 +1,5 @@
 
+/* timer */
 
 var countDownDate = new Date("2022 1:00").getTime();
 
@@ -16,3 +17,4 @@ var x = setInterval(function() {
         document.getElementById("demo").innerHTML = "زمان به پایان رسید";
     }
 }, 1000);
+

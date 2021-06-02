@@ -650,3 +650,10 @@ body {
 .confirm-list {
     padding: 2rem;
 }
+
+
+/* send comments */
+
+.checked {
+    color: orange;
+}

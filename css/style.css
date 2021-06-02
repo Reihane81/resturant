@@ -22,7 +22,7 @@
         top: 59% !important;
     }
 
-    .btn {
+    .search-box {
         margin-top: .5rem !important;
     }
 }
@@ -32,9 +32,7 @@
         font-size: 70px !important;
     }
 
-    .link-btn {
-        top: 51% !important;
-    }
+
 }
 
 @media (max-width: 372px) {
@@ -165,30 +163,20 @@ h1 {
     white-space: nowrap;
 }
 
-.btn {
+#city {
+    width: 8rem;
+    height: 2.5rem;
+    padding: 0 .5rem;
     font-family: Mehrbold;
     border: none;
     margin: 0 .5rem;
-    border-radius: 15px;
+    border-radius: 35px;
     background-color: rgba(14 ,15 ,20 ,.8);
     cursor: pointer;
-    transition: all ease .5s;
-    text-align: center;
+    transition: all ease 1s;
     font-size: 20px;
-}
-
-.btn:hover {
-    background-color: rgba(14 ,15 ,20 ,1);
-}
-
-.city {
-    width: auto;
-    padding: 0 1.5rem;
-}
-
-.restaurant {
-    width: auto;
-    padding: 0 8rem;
+    color: white;
+    outline: none;
 }
 
 
@@ -220,3 +208,45 @@ a {
 a:hover {
     color: dimgray;
 }
+
+
+
+
+:root {
+  --rad: .7rem;
+  --dur: .3s;
+  --color-dark: #2f2f2f;
+  --color-light: #fff;
+  --color-brand: #57bd84;
+  --font-fam: 'Lato', sans-serif;
+  --height: 5rem;
+  --btn-width: 6rem;
+  --bez: cubic-bezier(0, 0, 0.43, 1.49);
+}
+
+.search-box input, 
+button {
+  height: 2.4rem;
+  font-family: Mehrbold;
+  border: 0;
+  color: white;
+  font-size: 20px;
+}
+
+input[type="search"] {
+  position: relative;
+  outline: 0; 
+  width: 90%;
+  background-color: rgba(14 ,15 ,20 ,.8);
+  padding: 0 .6rem .2rem;
+  border-radius: 20px;
+  z-index: 1;
+}
+
+label {
+  position: absolute;
+  clip: rect(1px, 1px, 1px, 1px);
+  overflow: hidden;
+  color: white;
+}
+  
