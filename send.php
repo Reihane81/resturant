@@ -1,5 +1,6 @@
 <?php
 
-var_dump($_GET);
+$starts = $_GET['starts'];
 
+echo $starts
 ?>

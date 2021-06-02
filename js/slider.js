@@ -41,10 +41,19 @@ window.onclick = function (event) {
 
 /* send input */
 
-const input = document.querySelectorAll(".addfood");
+const input = document.querySelectorAll(".add-food");
 
 function myFunction() {
   input.forEach((i) => {
     i.value = Number(i.value) + 1;
+  });
+}
+
+const input2 = document.querySelectorAll(".discount");
+
+function addNumber() {
+  input2.forEach((i) => {
+    let Number = 0;
+    tex
   });
 }
