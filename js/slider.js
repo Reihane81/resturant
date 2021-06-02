@@ -51,9 +51,8 @@ function myFunction() {
 
 const input2 = document.querySelectorAll(".discount");
 
-function addNumber() {
+function number(x) {
   input2.forEach((i) => {
-    let Number = 0;
-    tex
+    i.value = Number(i.value) + x
   });
 }
