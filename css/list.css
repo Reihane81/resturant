@@ -269,29 +269,27 @@ body {
 
 .food-item .food-item-images {
   background-color: rgb(218, 2, 2);
-  height: 43px;
+  height: 3.5rem;
   border-radius: 5px;
 }
-.food-item .food-item-images img {
-  position: relative;
-  top: -4rem;
-  width: 107px;
-  height: 36px;
-  border-radius: 2px;
-}
+
 .food-item .food-item-images img {
   position: relative;
   bottom: 4rem;
-  left: -0.2rem;
-  width: 110px;
-  height: 95px;
+  left: -0.5rem;
+  width: 7rem;
+  height: 9rem;
   object-fit: contain;
   z-index: 99;
 }
-.food-item.two .food-item-images,
-.food-item.two .food-item-order {
-  background-color: rgb(236, 201, 0);
+
+.food-item .food-item-images .drink {
+  width: 6.5rem;
+  height: 8rem;
+  bottom: 5rem;
+  left: .1rem;
 }
+
 .food-item.three .food-item-images,
 .food-item.three .food-item-order {
   background-color: rgb(130, 0, 236);
@@ -336,7 +334,7 @@ body {
   display: inline-block;
   margin-right: -6.3rem;
   z-index: 9;
-  padding-top: 1.5rem;
+  padding-top: 2.5rem;
 }
 
 .button button {
