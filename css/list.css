@@ -354,9 +354,17 @@ body {
   background-color: silver;
 }
 
-.add-number {
+.text-number {
   position: relative;
-  left: 13%;
-  top: 5%;
+  display: flex;
   color: white;
+  bottom: 1.8rem;
+  right: 41%;
+}
+
+/* add-list */
+
+.disp_flex {
+  position: relative;
+  display: flex;
 }

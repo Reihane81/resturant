@@ -42,11 +42,16 @@ window.onclick = function (event) {
 /* send input */
 
 const food = document.querySelectorAll(".add-food");
-const drink = document.querySelectorAll(".add-drink")
+const drink = document.querySelectorAll(".add-drink");
 const input2 = document.querySelectorAll(".discount");
 
 
-function myFunction(x) {
+function myFunction(x,e) {
+  const elem = e.target.parentElement.parentElement.querySelector(".add-number")
+  elem.textContent = Number(elem.textContent) + 1
+
+  console.log(elem);
+
   food.forEach((i) => {
     i.value = Number(i.value) + 1;
   });
@@ -55,7 +60,12 @@ function myFunction(x) {
   });
 }
 
-function myFunction2(x) {
+function myFunction2(x,e) {
+  const elem = e.target.parentElement.parentElement.querySelector(".add-number")
+  elem.textContent = Number(elem.textContent) + 1
+
+  console.log(elem);
+
   drink.forEach((i) => {
     i.value = Number(i.value) + 1;
   });
