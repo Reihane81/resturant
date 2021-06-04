@@ -290,6 +290,10 @@ body {
   left: .1rem;
 }
 
+.food-item.two .food-item-images,
+.food-item.two .food-item-order {
+  background-color: rgb(236, 201, 0);
+}
 .food-item.three .food-item-images,
 .food-item.three .food-item-order {
   background-color: rgb(130, 0, 236);
