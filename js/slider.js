@@ -41,11 +41,13 @@ window.onclick = function (event) {
 
 /* send input */
 
-const input = document.querySelectorAll(".add-food");
+const food = document.querySelectorAll(".add-food");
+const drink = document.querySelectorAll(".add-drink")
 const input2 = document.querySelectorAll(".discount");
 
+
 function myFunction(x) {
-  input.forEach((i) => {
+  food.forEach((i) => {
     i.value = Number(i.value) + 1;
   });
   input2.forEach((i) => {
@@ -53,3 +55,11 @@ function myFunction(x) {
   });
 }
 
+function myFunction2(x) {
+  drink.forEach((i) => {
+    i.value = Number(i.value) + 1;
+  });
+  input2.forEach((i) => {
+    i.value = Number(i.value) + x
+  });
+}

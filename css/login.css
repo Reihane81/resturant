@@ -405,3 +405,47 @@ a {
 #code {
   margin-right: 2rem;
 }
+
+/* sign-up */
+
+.input-text {
+  position: relative;
+  padding: 0;
+}
+
+.form-signup .input {
+  margin: .5rem auto;
+}
+
+.username {
+  margin-top: 1.5rem;
+}
+
+.btn-signup {
+  font-family: Mehrbold;
+  font-size: 22px;
+  border: none;
+  cursor: pointer;
+  min-width: 8.5rem;
+  height: 3rem;
+  margin-top: 4%;
+  border-radius: 16px;
+  position: relative;
+  background-color: gold;
+  outline: none !important;
+  transition: all 0.4s;
+}
+
+.btn-signup:hover {
+  background-color: goldenrod;
+}
+
+.input-text small {
+  color: red;
+  visibility: hidden;
+}
+
+.input-text.error small {
+  visibility: visible;
+}
+

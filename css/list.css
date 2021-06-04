@@ -275,18 +275,18 @@ body {
 
 .food-item .food-item-images img {
   position: relative;
-  bottom: 4rem;
+  bottom: 2rem;
   left: -0.5rem;
   width: 7rem;
-  height: 9rem;
+  height: 5rem;
   object-fit: contain;
   z-index: 99;
 }
 
 .food-item .food-item-images .drink {
   width: 6.5rem;
-  height: 8rem;
-  bottom: 5rem;
+  height: 5rem;
+  bottom: 2.5rem;
   left: .1rem;
 }
 

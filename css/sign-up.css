@@ -133,6 +133,10 @@ h2 {
     padding-top: 1.5rem;
 }
 
+h2 a {
+    color: white;
+}
+
 h2 :hover {
     color: #c0c0c0;
 }
@@ -172,11 +176,9 @@ h2 :hover {
     transition: all 0.4s;
 }
 
-
-.btn-login:hover {
-    background-color: #fdd85d;
+.btn-signup:hover {
+    background-color: goldenrod;
 }
-
 
 .input-text small {
     color: red;
