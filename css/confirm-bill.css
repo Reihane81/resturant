@@ -656,3 +656,15 @@ body {
 .checked {
     color: orange;
 }
+
+/* score */
+
+.star-rating {
+    position: relative;
+    width: 11rem;
+    left: 1.5rem;
+}
+
+.star-rating span {
+    font-size: 1rem;
+}
