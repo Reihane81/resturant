@@ -41,6 +41,10 @@ body {
     z-index: 999;
 }
 
+.header-logo {
+    height: 5rem;
+}
+
 .item-holder {
     color: #ffffff;
     width: 16rem;
@@ -128,6 +132,10 @@ body {
     color: white;
 }
 
+.list-full {
+    margin-top: 5rem;
+}
+
 .logo-m {
     position: absolute;
     width: 6rem;
@@ -167,7 +175,7 @@ h2 {
 
 .div-text {
     position: relative;
-    width: 13rem;
+    width: 15rem;
     border-bottom: 1px dashed white;
     margin-top: 1.5rem;
     font-size: 18px;
@@ -175,7 +183,7 @@ h2 {
 }
 
 .text-food {
-    margin-bottom: .5rem;
+    margin-bottom: .3rem;
 }
 
 .div-text .number-text{
@@ -228,6 +236,7 @@ textarea {
     border-radius: 20px;
     background-color: rgb(2, 140, 212);
     outline: none;
+    color: white;
 }
 
 .contact-us {
@@ -260,7 +269,7 @@ a {
     text-decoration: none;
 }
 
-/* lis */
+/* list */
 
 .donald {
     margin: -5rem -1rem;
