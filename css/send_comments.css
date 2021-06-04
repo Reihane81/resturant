@@ -287,9 +287,10 @@ input:not(:checked) > label:hover ~ label:before {
 }
   
 .send {
+    font-family: Mehrbold;
     border: none;
-    padding: .5rem 1rem;
-    border-radius: 20px;
+    padding: 0 1.5rem;
+    border-radius: 33px;
     color: white;
     background-color: black;
     font-size: 20px;
@@ -298,5 +299,6 @@ input:not(:checked) > label:hover ~ label:before {
 }
 
 .send:hover {
+    color: silver;
     background-color: rgba(14, 15, 20, 0.9);
 }
