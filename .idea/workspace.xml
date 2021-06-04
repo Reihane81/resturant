@@ -6,9 +6,8 @@
       <change beforePath="$PROJECT_DIR$/add-list.html" beforeDir="false" afterPath="$PROJECT_DIR$/add-list.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/list.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/list.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/login.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/login.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/sign-up.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/sign-up.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/slider.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/slider.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sign-up.html" beforeDir="false" afterPath="$PROJECT_DIR$/sign-up.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-list.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sign-up-bill.html" beforeDir="false" afterPath="$PROJECT_DIR$/sign-up-bill.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +56,7 @@
       <workItem from="1622737721184" duration="6126000" />
       <workItem from="1622752135800" duration="601000" />
       <workItem from="1622756439654" duration="2068000" />
-      <workItem from="1622791522744" duration="19649000" />
+      <workItem from="1622791522744" duration="22175000" />
     </task>
     <servers />
   </component>

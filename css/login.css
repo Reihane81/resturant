@@ -373,6 +373,7 @@ a {
 
 .sign-form {
   margin-left: 3rem !important;
+  margin-top: 2rem;
 }
 
 .div-text {
@@ -408,7 +409,7 @@ a {
 
 /* sign-up */
 
-.input-text {
+.form-signup .input-text {
   position: relative;
   padding: 0;
 }
@@ -417,11 +418,11 @@ a {
   margin: .5rem auto;
 }
 
-.username {
+.form-signup .username {
   margin-top: 1.5rem;
 }
 
-.btn-signup {
+.form-signup .btn-signup {
   font-family: Mehrbold;
   font-size: 22px;
   border: none;
@@ -436,16 +437,24 @@ a {
   transition: all 0.4s;
 }
 
-.btn-signup:hover {
+.form-signup .btn-signup:hover {
   background-color: goldenrod;
 }
 
-.input-text small {
+.form-signup .input-text small {
   color: red;
   visibility: hidden;
 }
 
-.input-text.error small {
+.form-signup .input-text.error small {
   visibility: visible;
 }
 
+/*.adress {*/
+/*  position: relative;*/
+/*  top: 1rem;*/
+/*}*/
+
+/*.textarea {*/
+/*  margin-top: 2.5rem;*/
+/*}*/

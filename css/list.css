@@ -353,3 +353,10 @@ body {
 .button button:hover {
   background-color: silver;
 }
+
+.add-number {
+  position: relative;
+  left: 13%;
+  top: 5%;
+  color: white;
+}
