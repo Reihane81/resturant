@@ -136,6 +136,10 @@ body {
     color: white;
 }
 
+.comment {
+    margin-top: 6rem;
+}
+
 .receipt-list {
     padding: 2rem 2.4rem 3.5rem 2.5rem;
 }
@@ -256,7 +260,6 @@ a {
     position: relative;
     font-family: Mehrbold;
     font-size: 18px;
-    color: #fff;
     display: block;
     background-color: white;
     margin: 0.7rem auto 0rem auto;
@@ -468,10 +471,7 @@ body {
     cursor: pointer;
 }
 
-
-
  /*socre-page*/
-
 
 .product-img{
     position: relative;
@@ -558,6 +558,15 @@ body {
     top: 0;
 }
 
+.my-slider .star-rating {
+    position: relative;
+    width: 11rem;
+    left: 1.5rem;
+}
+
+.my-slider .star-rating span {
+    font-size: 1rem;
+}
 
 /* receipt-bill */
 
@@ -606,7 +615,7 @@ body {
     margin-top: 7rem;
 }
 
-.splide__arrow--prev {
+.comment_score .splide__arrow--prev {
     top: -4% !important;
 }
 
@@ -657,14 +666,3 @@ body {
     color: orange;
 }
 
-/* score */
-
-.star-rating {
-    position: relative;
-    width: 11rem;
-    left: 1.5rem;
-}
-
-.star-rating span {
-    font-size: 1rem;
-}
