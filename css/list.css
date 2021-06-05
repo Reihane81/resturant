@@ -348,6 +348,7 @@ body {
   background-color: white;
   font-family: Mehrbold;
   cursor: pointer;
+  transition: all ease .5s;
 }
 
 .button button:hover {
