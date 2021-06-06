@@ -101,7 +101,7 @@ form.addEventListener('submit', function(e) {
 
 form.addEventListener('submit' , function(e) {
     e.preventDefault();
-    alert('ok')
+    console.log("Enter to Send");
     let formData = new FormData(this);
 
     fetch('sign-up.php', {
@@ -110,33 +110,13 @@ form.addEventListener('submit' , function(e) {
     }).then(function(response) {
         return response.json();
     }).then(function(data) {
-        console.log(data);
-        alert("salam")
+        if(data.MSG === "SUCCESSFULLY"){
+            window.location.href = "user-profile.php"
+        }
+        else if(data.MSG === "USER_EXISTS"){
+            alert("user exists")
+        }
     }).catch(function(error) {
         console.log(error);
     })
 });
-
-var button = document.querySelector("#submit")
-
-button.addEventListener("click" , () =>{
-    var name = document.querySelector("#username").nodeValue
-    var password = document.querySelector("#password").nodeValue
-
-    console.log(name);
-    console.log(password);
-
-    verify(name, password)
-})
-
-function verify(name, password) {
-    fetch("sign-up.php" , {
-        type:'POST' ,
-        body : {
-            name , 
-            password
-        }
-    }).then(response => response.json()).then(data => {
-        console.log(data)
-    }) 
-}
