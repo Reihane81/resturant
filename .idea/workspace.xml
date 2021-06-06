@@ -3,8 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="a61c3b72-62b7-4e31-b04c-e32160212059" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/add-list.html" beforeDir="false" afterPath="$PROJECT_DIR$/add-list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/slider.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/slider.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/sign-up.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/sign-up.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sign-up.html" beforeDir="false" afterPath="$PROJECT_DIR$/sign-up.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,7 +35,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../restaurent-master" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
@@ -66,7 +66,9 @@
       <workItem from="1622791522744" duration="30520000" />
       <workItem from="1622836092517" duration="2281000" />
       <workItem from="1622889095118" duration="8984000" />
-      <workItem from="1622900389032" duration="5072000" />
+      <workItem from="1622900389032" duration="6251000" />
+      <workItem from="1622964795861" duration="1756000" />
+      <workItem from="1622988206444" duration="59000" />
     </task>
     <servers />
   </component>

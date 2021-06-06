@@ -101,17 +101,42 @@ form.addEventListener('submit', function(e) {
 
 form.addEventListener('submit' , function(e) {
     e.preventDefault();
-
+    alert('ok')
     let formData = new FormData(this);
 
     fetch('sign-up.php', {
         method:'post',
         body: formData
     }).then(function(response) {
-        return response.text();
-    }).then(function(text) {
-        console.log(text);
+        return response.json();
+    }).then(function(data) {
+        console.log(data);
+        alert("salam")
     }).catch(function(error) {
         console.log(error);
     })
 });
+
+var button = document.querySelector("#submit")
+
+button.addEventListener("click" , () =>{
+    var name = document.querySelector("#username").nodeValue
+    var password = document.querySelector("#password").nodeValue
+
+    console.log(name);
+    console.log(password);
+
+    verify(name, password)
+})
+
+function verify(name, password) {
+    fetch("sign-up.php" , {
+        type:'POST' ,
+        body : {
+            name , 
+            password
+        }
+    }).then(response => response.json()).then(data => {
+        console.log(data)
+    }) 
+}
